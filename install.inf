@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Files
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Files = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%norm%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%prec%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unav%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%hori%,%10%\%CUR_DIR%\%dia1%,%10%\%CUR_DIR%\%dia2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alte%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%loca%,%10%\%CUR_DIR%\%pers%"
+
+[Scheme.Files]
+"amiga_wb2_normal.cur"
+"amiga_wb2_help.cur"
+"amiga_wb2_work.cur"
+"amiga_wb2_busy.cur"
+"amiga_wb2_precision.cur"
+"amiga_wb2_text.cur"
+"amiga_wb2_handwriting.cur"
+"amiga_wb2_unavailable.cur"
+"amiga_wb2_vertical.cur"
+"amiga_wb2_horizontal.cur"
+"amiga_wb2_diagonal1.cur"
+"amiga_wb2_diagonal2.cur"
+"amiga_wb2_move.cur"
+"amiga_wb2_alter.cur"
+"amiga_wb2_link.cur"
+"amiga_wb2_location.cur"
+"amiga_wb2_person.cur"
+
+[Strings]
+CUR_DIR		= "Cursors\Amiga WB2.0"
+SCHEME_NAME	= "Amiga WB2.0"
+norm        = "amiga_wb2_normal.cur"
+help		= "amiga_wb2_help.cur"
+work		= "amiga_wb2_work.cur"
+busy		= "amiga_wb2_busy.cur"
+prec		= "amiga_wb2_precision.cur"
+text		= "amiga_wb2_text.cur"
+hand		= "amiga_wb2_handwriting.cur"
+unav        = "amiga_wb2_unavailable.cur"
+vert		= "amiga_wb2_vertical.cur"
+hori		= "amiga_wb2_horizontal.cur"
+dia1		= "amiga_wb2_diagonal1.cur"
+dia2		= "amiga_wb2_diagonal2.cur"
+move		= "amiga_wb2_move.cur"
+alte    	= "amiga_wb2_alter.cur"
+link		= "amiga_wb2_link.cur"
+loca        = "amiga_wb2_location.cur"
+pers        = "amiga_wb2_person.cur"
