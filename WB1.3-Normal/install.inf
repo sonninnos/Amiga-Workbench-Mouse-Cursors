@@ -1,0 +1,52 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Files
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Files = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%norm%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%prec%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unav%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%hori%,%10%\%CUR_DIR%\%dia1%,%10%\%CUR_DIR%\%dia2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alte%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%loca%,%10%\%CUR_DIR%\%pers%"
+
+[Scheme.Files]
+"amiga_wb13_normal.cur"
+"amiga_wb13_help.cur"
+"amiga_wb13_work.cur"
+"amiga_wb13_busy.cur"
+"amiga_wb13_precision.cur"
+"amiga_wb13_text.cur"
+"amiga_wb13_handwriting.cur"
+"amiga_wb13_unavailable.cur"
+"amiga_wb13_vertical.cur"
+"amiga_wb13_horizontal.cur"
+"amiga_wb13_diagonal1.cur"
+"amiga_wb13_diagonal2.cur"
+"amiga_wb13_move.cur"
+"amiga_wb13_alter.cur"
+"amiga_wb13_link.cur"
+"amiga_wb13_location.cur"
+"amiga_wb13_person.cur"
+
+[Strings]
+CUR_DIR     = "Cursors\Amiga WB1.3"
+SCHEME_NAME = "Amiga WB1.3"
+norm        = "amiga_wb13_normal.cur"
+help        = "amiga_wb13_help.cur"
+work        = "amiga_wb13_work.cur"
+busy        = "amiga_wb13_busy.cur"
+prec        = "amiga_wb13_precision.cur"
+text        = "amiga_wb13_text.cur"
+hand        = "amiga_wb13_handwriting.cur"
+unav        = "amiga_wb13_unavailable.cur"
+vert        = "amiga_wb13_vertical.cur"
+hori        = "amiga_wb13_horizontal.cur"
+dia1        = "amiga_wb13_diagonal1.cur"
+dia2        = "amiga_wb13_diagonal2.cur"
+move        = "amiga_wb13_move.cur"
+alte        = "amiga_wb13_alter.cur"
+link        = "amiga_wb13_link.cur"
+loca        = "amiga_wb13_location.cur"
+pers        = "amiga_wb13_person.cur"
